@@ -23,4 +23,6 @@ TLDR; DOOM 1993 can run on most devices, so why not make an exclusive device to 
 <br>
 <br>
 <img width="959" height="502" alt="Screenshot 2026-11-01 202842" src="https://github.com/user-attachments/assets/25e9edf8-d916-4ac6-8fd5-1b792c8ecfce" />
-
+<br>
+<br>
+VERY IMPORTANT:THE FRIMWARE FILES STILL NEED TWEAKING,WHICH I CAN ONLY DO WHEN I PHYSICALLY HAVE THE SCREEN AND PICO SINCE I NEED TO MAKE SEVERAL ADJUSTMENTS AND LIVE TESTS TO MAKE IT WORK PROPERLY ON THE ACTUALPCB
