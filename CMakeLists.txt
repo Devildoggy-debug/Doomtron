@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.13)
+include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
+project(ili9341_test C CXX ASM)
+pico_sdk_init()
+
+add_executable(ili9341_test test_main.c ili9341.c)
+target_link_libraries(ili9341_test pico_stdlib hardware_spi hardware_dma)
+pico_enable_stdio_usb(ili9341_test 1)
+pico_enable_stdio_uart(ili9341_test 0)
+pico_add_extra_outputs(ili9341_test)
